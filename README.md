@@ -1,1 +1,1 @@
-Collecting information on machine learning and data modelling for our health-bot idea.
+Collecting information on machine learning and data modelling for our Medication Reminder App idea.
