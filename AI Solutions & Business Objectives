@@ -1,0 +1,42 @@
+Business Background:
+ The project aims to develop a medication reminder app to assist people, especially the elderly, in managing their medical schedules and reducing missed medication collection dates.
+
+Business Success Criteria:
+ The app should be able to send timely reminders to users, reduce missed medication collection dates by 50%, and improve user satisfaction ratings by 20%.
+
+Business Objectives:
+The primary objectives of the app are to:
+Provide personalized medication reminders to users
+Assist users in managing their medical schedules
+Reduce missed medication collection dates
+Improve user satisfaction and loyalty
+
+
+Requirements, Constraints, and Risks
+
+Functional Requirements:
+The app should be able to send reminders to users based on their medication schedules
+The app should be able to integrate with electronic health records (EHR) to access user medical histories
+The app should be able to generate personalized notifications using natural language processing (NLP)
+
+Non-Functional Requirements:
+The app should have a user-friendly interface
+The app should be able to handle a minimum of 100 concurrent users
+The app should have a response time of less than 2 seconds
+
+Constraints:
+The app should be developed using supervised machine learning algorithms
+The app should be deployed on a cloud-based infrastructure
+The app should comply with existing healthcare regulations and data privacy policies
+
+Risks:
+The app may not be able to accurately send reminders to users
+The app may not be able to integrate with EHR systems
+The app may not be able to handle a high volume of concurrent users
+
+
+ Tools and Techniques
+Tools:
+Python, scikit-learn, TensorFlow, NLTK, spaCy, Rasa, Botkit, Docker, Kubernetes, Ansible, Prometheus, Grafana
+Techniques:
+Supervised machine learning, natural language processing, intent detection, entity recognition, dialogue management, state management, continuous integration, continuous deployment, monitoring, and logging
