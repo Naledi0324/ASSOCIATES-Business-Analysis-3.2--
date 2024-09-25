@@ -1,42 +1,81 @@
 Business Background:
- The project aims to develop a medication reminder app to assist people, especially the elderly, in managing their medical schedules and reducing missed medication collection dates.
-
-Business Success Criteria:
- The app should be able to send timely reminders to users, reduce missed medication collection dates by 50%, and improve user satisfaction ratings by 20%.
+	- The project aims to develop a medication reminder app to assist people, 
+	especially the elderly in managing their medical schedules and reducing 
+	missed medication collection dates.
+	- Making use of AI technology, the app will
+	monitor the changes over time based on how frequently the user uses the app
+	make suggestions based on the patient health status by which it will be altered by either the 
+	user of the caregiver and improve the quality of life for  both people with special needs
+	and their caregivers
 
 Business Objectives:
-The primary objectives of the app are to:
-Provide personalized medication reminders to users
-Assist users in managing their medical schedules
-Reduce missed medication collection dates
-Improve user satisfaction and loyalty
+	- Provide personalized medication reminders to users
+	- Assisting users in managing their medical schedules
+	- Reduce missed medication collection dates
+	- Keeping track of the patient's health status based on how the user uses the app frequently.
+	- Improve user satisfaction and loyalty
+	- Provide conversational AI to automatically do what the user request it to do
 
+Business Success Criteria:
+	- The app should be able to send timely reminders to users, reduce
+	missed medication collection dates by 50% 
+	- Improve user satisfaction ratings by 20% using net promoter test. 
+	- The app will have a user-friendly GUI by implementing 
+ 	UX Design for the target users
+	- The perfomance of the app will be monitored for the period 
+	of 12 months from its initial deployment
+	- Improving data security by 50% continuosly.
+	- To assist with unreliable machine learning algorithm, A/B testing and longitudinal testing
+	will be used to ensure  the application is relevent and effective based on what the application might predict
+ 	based on frequent changes of the patient ,the needs or challenges faced by the users
 
-Requirements, Constraints, and Risks
+Requirements, Constraints and Risks: 
+	- Functional Requirements:
+		- The app should be able to send reminders to users based on their medication schedules
+		- The app should be able to integrate with electronic health records (EHR) to access user medical histories
+		- The app should be able to generate personalized notifications using natural language processing (NLP)
 
-Functional Requirements:
-The app should be able to send reminders to users based on their medication schedules
-The app should be able to integrate with electronic health records (EHR) to access user medical histories
-The app should be able to generate personalized notifications using natural language processing (NLP)
+	- Non-Functional Requirements:
+		- The app should have a user-friendly interface
+		- The app should be able to handle a minimum of 100 concurrent users
+		- The app should have a response time of less than 2 seconds
 
-Non-Functional Requirements:
-The app should have a user-friendly interface
-The app should be able to handle a minimum of 100 concurrent users
-The app should have a response time of less than 2 seconds
+	- Constraints:
+		- The app should be developed using supervised machine learning algorithms
+		- The app should be deployed on a cloud-based infrastructure 
+		- The app should comply with the existing healthcare regulations and data privacy policies (POPIA)
+		- The development and deployment of the application should be finished in a according to its designated timeline 
+		- Completion of the app should be done within its budget limit 
 
-Constraints:
-The app should be developed using supervised machine learning algorithms
-The app should be deployed on a cloud-based infrastructure
-The app should comply with existing healthcare regulations and data privacy policies
+	- Risks: 
+		- The app may not be able to accurately send reminders to users
+		- The app may not be able to integrate with EHR systems
+		- The app may not be able to handle a high volume of concurrent users
+		- The app might be exposed to cyberattacks resulting in data loss or the system being corrupted 
 
-Risks:
-The app may not be able to accurately send reminders to users
-The app may not be able to integrate with EHR systems
-The app may not be able to handle a high volume of concurrent users
+Tools and Techniques:
+	- Tools:
+		- Python
+		- scikit-learn
+		- TensorFlow
+		- NLTK (Natural Language ToolKit)
+		- spaCy
+		- Rasa
+		- Botkit
+		- Docker
+		- Kubernetes
+		- Ansible
+		- Prometheus
+		- Grafana
 
-
- Tools and Techniques
-Tools:
-Python, scikit-learn, TensorFlow, NLTK, spaCy, Rasa, Botkit, Docker, Kubernetes, Ansible, Prometheus, Grafana
-Techniques:
-Supervised machine learning, natural language processing, intent detection, entity recognition, dialogue management, state management, continuous integration, continuous deployment, monitoring, and logging
+	- Techniques:
+		- Supervised machine learning
+		- Natural language processing
+		- Intent detection
+		- Entity recognition
+		- Dialogue management
+		- State management
+		- Continuous integration
+		- Continuous deployment
+		- Monitoring
+		- Logging
