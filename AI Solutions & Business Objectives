@@ -27,7 +27,7 @@ Business Success Criteria:
 	- Improving data security by 50% continuosly.
 	- To assist with unreliable machine learning algorithm, A/B testing and longitudinal testing
 	will be used to ensure  the application is relevent and effective based on what the application might predict
- 	based on frequent changes of the patient ,the needs or challenges faced by the users
+ 	based on frequent changes made by the user, their needs or challenges that they faces 
 
 Requirements, Constraints and Risks: 
 	- Functional Requirements:
