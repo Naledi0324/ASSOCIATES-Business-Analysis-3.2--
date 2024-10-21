@@ -1,6 +1,0 @@
-1. AI Solution & Business objectives (30 marks)
-2. Problem definition & Poster (20 marks)
-3. Machine learning approach, Data & Model (20 marks)
-4. Solution technique & Natural language processing, speech recognition or speech synthesis (10 marks)
-5. Deep learning & other features (10 marks)
-6. AI Practical Solution
