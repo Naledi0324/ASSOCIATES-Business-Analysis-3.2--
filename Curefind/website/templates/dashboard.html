@@ -60,5 +60,20 @@ content %}
 </ul>
 {% else %}
 <p>No medications added yet.</p>
-{% endif %} {% endblock %}
+{% endif %}
+
+
+<h3>Chat with our AI Assistant</h3>
+<div class="chatbot mb-4">
+  <div id="chat-window" class="border p-3 mb-3" style="height: 300px; overflow-y: auto; background-color: #f8f9fa;">
+    <!-- Chat messages will be added here -->
+  </div>
+  <input type="text" id="user-input" class="form-control mb-2" placeholder="Type your message...">
+  <button class="btn btn-primary" onclick="sendMessage()">Send</button>
+  <button class="btn btn-secondary" onclick="startRecognition()">Speak</button>
+</div>
+
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+{% endblock %}
 
