@@ -1,3 +1,4 @@
+#the file that helps the website know where the database is and keeps secret information safe 
 import os
 
 class Config:
