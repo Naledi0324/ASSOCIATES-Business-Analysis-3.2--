@@ -1,3 +1,4 @@
+#This file puts the website together by loading settings and getting the database ready.
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
