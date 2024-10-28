@@ -1,3 +1,5 @@
+//This file contains the JavaScript code that adds interactivity to the website, like form validation, chatbot responses, and speech recognition.
+
 // Form validation for Sign Up and Login pages
 function validateForm(formId) {
     const form = document.getElementById(formId);
