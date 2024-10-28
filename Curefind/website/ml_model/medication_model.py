@@ -1,3 +1,4 @@
+#this file is responsible for training models for medication adherence predictions
 import tensorflow as tf
 from tensorflow.keras import layers, models
 
