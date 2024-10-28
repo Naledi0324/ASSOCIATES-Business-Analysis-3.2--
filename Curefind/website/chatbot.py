@@ -1,3 +1,4 @@
+#manages chatbot interactions for user assistance
 from flask import Blueprint, jsonify, request
 from .nlp import analyze_user_input
 
