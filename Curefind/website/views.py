@@ -27,6 +27,12 @@ def dashboard():
             db.session.add(new_medication)
             db.session.commit()
             flash('Medication added successfully!', category='success')
+            
+    adherence_data = {"adherence_times": [1, 2, 3, 4]}  # Example adherence data
+    adherence_forecast = predict_medication_adherence(adherence_data)
+    reminder_text = generate_reminder_text("MedicationName", "1 tablet", "8:00 AM")
+    
+    flash(f"Next dose reminder: {reminder_text}", "success")
 
     medications = Medication.query.filter_by(user_id=current_user.id).all()
     return render_template('dashboard.html', medications=medications)
