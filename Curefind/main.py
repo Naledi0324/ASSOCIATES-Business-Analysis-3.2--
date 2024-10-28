@@ -1,3 +1,4 @@
+#This is the main file that starts the website
 from website import create_app
 
 app = create_app()
