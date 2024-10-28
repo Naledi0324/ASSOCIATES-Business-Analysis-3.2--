@@ -1,3 +1,4 @@
+#this file processes natural language for medication-related queries
 import spacy
 from transformers import pipeline
 
