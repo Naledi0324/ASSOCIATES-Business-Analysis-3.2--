@@ -1,4 +1,4 @@
-#provides utility functions for data proprocessing and model support
+#provides utility functions for data preprocessing and model support
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
