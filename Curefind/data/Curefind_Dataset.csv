@@ -1,0 +1,33 @@
+User_ID,Age,Medical_Condition,Medication,Dosage_mg,Frequency,Time,Reminder_Type,Last_Med_Date,Adherence_Level,Missed_Doses_Last_30_Days,Collection_Due_Date,Nearby_Hospital
+P35658,34,Hypertension,Lisinopril; Amlodipine,441,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-30,Low,1,2024-11-19,Hospital_B
+P10758,74,Diabetes(Type2),Glipizide; Sitagliptin,110,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-21,Low,2,2024-11-17,Hospital_B
+P56758,37,Asthma,Albuterol; Budesonide,456,As needed,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-28,Low,2,2024-11-19,Hospital_A
+P36128,46,Chronic_Obstructure_Pulmonary_Disease, Albuterol; Ipratropium; Budesonide,220,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Active,2024-10-25,Medium,3,2024-11-24,Hospital_B
+P36728,28,High_Cholesterol, Atorvastatin; Simvastatin,402,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Active,2024-10-22,High,2,2024-11-17,Hospital_C
+P34008,27,HIV/Aids,ARV,244,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-22,Low,5,2024-11-23,Hospital_A
+P24568,28,Arthritis,Ibuprofen; Naproxen,208,Twice a day,"8:00 AM; 6:00 PM",Push Notification,2024-10-30,Medium,2,2024-11-27,Hospital_C
+P31118,22,Epilepsy,Lamotrigine; Levetiracetam; Valproate,430,Once a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-26,High,3,2024-11-20,Hospital_C
+P36778,69,Hypothyroidism,Levothyroxine,201,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-22,Low,4,2024-11-25,Hospital_B
+P36988,70,Chronic_Kidney_Disease,phosphate binders; vitamin D,54,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-30,High,3,2024-11-20,Hospital_B
+P36018,30,Anxiety_Disorder,Sertraline; Escitalopram,413,Once a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-28,High,3,2024-11-28,Hospital_C
+P31238,53,Depression,Fluoxetine; Sertraline,474,Once a day,"8:00 AM; 6:00 PM",Push Notification; Active,2024-10-31,Medium,1,2024-11-15,Hospital_C
+P36468,61,Arthritis,Venlafaxine; Duloxetine,212,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-25,Medium,1,2024-11-20,Hospital_C
+P36378,52,Diabetes(Type1),Insulin,258,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-21,Medium,0,2024-11-27,Hospital_A
+P36098,47,Lupus,Hydroxychloroquine; Prednisone; Azathioprine,298,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-21,High,3,2024-11-19,Hospital_B
+P39858,62,Schizophrenia,Risperidone; Olanzapine; Aripiprazole; Clozapine,328,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-30,Medium,4,2024-11-20,Hospital_A
+P56058,23,Hypothyroidism,Levothyroxine,443,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS,2024-10-31,High,0,2024-11-27,Hospital_B
+P33458,29,Depression,Fluoxetine; Sertraline,417,Once a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-31,Low,2,2024-11-22,Hospital_A
+P36766,44,Irritable_Bowel_Syndome,Dicyclomine; Loperamide; antidepressants,368,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-29,Medium,1,2024-11-20,Hospital_B
+P30758,64,Hypertension,Lisinopril;Losartan; Metoprolol,453,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-27,Low,3,2024-11-28,Hospital_C
+P34858,42,Psoriasis,Calcipotriene;Adalimumab; Etanercept,341,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-27,High,3,2024-11-21,Hospital_A
+P34558,29,Hypothyroidism,Levothyroxine,62,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-25,Medium,0,2024-11-28,Hospital_B
+P33738,62,Anxiety_Disorder,Lorazepam; Buspirone,120,Once a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Active,2024-10-25,Medium,2,2024-11-23,Hospital_B
+P31708,45,Epilepsy,Lamotrigine; Levetiracetam; Valproate,225,Once a Day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-28,Low,1,2024-11-28,Hospital_B
+P36688,52,Schizophrenia,Risperidone; Olanzapine; Aripiprazole,325,Twice a day,"8:00 AM; 6:00 PM",Push Notification,2024-10-28,Low,4,2024-11-20,Hospital_A
+P38708,57,Diabetes(Type2),Glipizide; insulin,466,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email; Active,2024-10-25,Low,2,2024-11-26,Hospital_A
+P34728,59,Bipolar_Disorder,Lithium; Valproate,331,Twice a day,"8:00 AM; 6:00 PM",Push Notification; Email; Active,2024-10-23,Low,3,2024-11-18,Hospital_B
+P36738,75,Arthritis,Venlafaxine; Duloxetine,474,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Active,2024-10-21,Medium,4,2024-11-25,Hospital_B
+P36568,33,High_Cholesterol,Atorvastatin; Simvastatin,61,Twice a day,"8:00 AM; 6:00 PM",Push Notification; SMS; Email,2024-10-29,Medium,3,2024-11-20,Hospital_C
+
+
+
