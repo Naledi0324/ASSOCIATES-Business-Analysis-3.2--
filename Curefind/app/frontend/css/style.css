@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for better visibility */
+    color: #333; /* Dark text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px; /* Padding around the header */
+    text-align: center; /* Centered text */
+}
+
+/* Navigation Styles */
+nav {
+    margin: 10px 0; /* Margin around the navigation */
+}
+
+nav a {
+    color: white; /* White text for links */
+    margin: 0 15px; /* Spacing between links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Main Content Styles */
+main {
+    margin: 20px; /* Margin around main content */
+    padding: 20px; /* Padding within main content */
+    background-color: white; /* White background for content area */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Headings */
+h1, h2 {
+    font-size: 24px; /* Font size for main headings */
+    margin: 10px 0; /* Margin above and below headings */
+}
+
+/* Form Labels */
+label {
+    display: block; /* Labels on their own lines */
+    margin: 10px 0 5px; /* Spacing for labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+/* Input Fields */
+.input {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Padding within input fields */
+    margin-bottom: 10px; /* Space below input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Button Styles */
+.button {
+    background-color: #4CAF50; /* Green background for buttons */
+    color: white; /* White text for buttons */
+    padding: 10px 15px; /* Padding for buttons */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Centered text in footer */
+    padding: 20px; /* Padding for footer */
+    background-color: #4CAF50; /* Same green background */
+    color: white; /* White text */
+    position: relative; /* Position relative for footer */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
+
+/* List Styles */
+ul {
+    list-style-type: none; /* Remove bullets from lists */
+    padding: 0; /* Remove padding from lists */
+}
+
+ul li {
+    background-color: #e9e9e9; /* Light gray background for list items */
+    margin: 5px 0; /* Space between list items */
+    padding: 10px; /* Padding within list items */
+    border-radius: 4px; /* Rounded corners for list items */
+}
+
+/* Chatbot styling */
+#chat-container {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  #chat-log {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  #user-input {
+    width: calc(100% - 50px);
+    padding: 5px;
+  }
+  #send-btn {
+    padding: 5px;
+  }
