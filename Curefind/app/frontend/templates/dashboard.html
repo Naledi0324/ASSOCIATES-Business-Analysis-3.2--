@@ -1,0 +1,145 @@
+{% extends "base.html" %}Dashboard{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curefind - Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Curefind Dashboard</h1>
+      <nav>
+        <a href="{{ url_for('main.logout') }}">Logout</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Your Reminders</h2>
+        {% if reminders %}
+        <ul>
+          {% for reminder in reminders %}
+          <li>
+            {{ reminder.medication_name }} - Next dose: {{
+            reminder.next_dose_time }}
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p>No reminders found.</p>
+        {% endif %}
+      </section>
+
+      <section>
+        <h2>Your Appointments</h2>
+        {% if appointments %}
+        <ul>
+          {% for appointment in appointments %}
+          <li>
+            {{ appointment.location }} - Date: {{ appointment.appointment_date
+            }}
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p>No appointments found.</p>
+        {% endif %}
+      </section>
+
+      <!-- Feedback Section -->
+      <section id="feedback">
+        <h2>Feedback</h2>
+        <form action="{{ url_for('submit_feedback') }}" method="post">
+          <label for="feedback">Your Feedback:</label>
+          <textarea name="feedback" id="feedback" rows="4" required></textarea>
+          <button type="submit">Submit Feedback</button>
+        </form>
+        {% if feedbacks %}
+        <h3>Previous Feedback</h3>
+        <ul>
+          {% for feedback in feedbacks %}
+          <li>{{ feedback.date }} - {{ feedback.content }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </section>
+
+      <section>
+        <h2>Chat with Curefind</h2>
+        <form
+          id="chatbot-form"
+          action="{{ url_for('chatbot.respond') }}"
+          method="POST"
+        >
+          <input
+            type="text"
+            id="user-input"
+            name="user_input"
+            placeholder="Ask me anything..."
+            required
+          />
+          <button type="submit">Send</button>
+        </form>
+        <div id="chatbot-response">
+          <!-- Chatbot responses will be displayed here -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Curefind. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document
+        .getElementById("chatbot-form")
+        .addEventListener("submit", async function (event) {
+          event.preventDefault(); // Prevent form from submitting normally
+
+          const userInput = document.getElementById("user-input").value;
+
+          // Clear the input field
+          document.getElementById("user-input").value = "";
+
+          // Send the input to the backend using Fetch API
+          try {
+            const response = await fetch("{{ url_for('chatbot.respond') }}", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ user_input: userInput }),
+            });
+
+            // Check if response is OK, then parse JSON
+            if (response.ok) {
+              const data = await response.json();
+              displayResponse(data.reply);
+            } else {
+              displayResponse("Sorry, an error occurred.");
+            }
+          } catch (error) {
+            console.error("Error:", error);
+            displayResponse("Sorry, an error occurred.");
+          }
+        });
+
+      function displayResponse(message) {
+        const responseDiv = document.getElementById("chatbot-response");
+
+        // Create a new paragraph element for each response
+        const p = document.createElement("p");
+        p.textContent = message;
+
+        // Append the new response to the chatbot-response div
+        responseDiv.appendChild(p);
+      }
+    </script>
+  </body>
+</html>
+{% endblock %}
