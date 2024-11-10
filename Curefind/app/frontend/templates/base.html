@@ -1,0 +1,30 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curefind - Home</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('user_interface', filename='css/styles.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Curefind</h1>
+      <nav>
+        <a href="{{ url_for('main.login') }}">Login</a>
+        <a href="{{ url_for('main.register') }}">Register</a>
+        <a href="{{ url_for('dashboard') }}">Dashboard</a>
+        <a href="{{ url_for('logout') }}">Logout</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Your Medication Reminder App</h2>
+      <p>Manage your medication and appointments easily.</p>
+    </main>
+    <footer>
+      <p>&copy; 2024 Curefind. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
